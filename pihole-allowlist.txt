@@ -1,0 +1,29 @@
+# these are in addition to the curated allowlists at https://github.com/anudeepND/whitelist
+
+# o365 and live allows
+browser.pipe.aria.microsoft.com
+nexus.officeapps.live.com
+mobile.pipe.aria.microsoft.com
+
+# blocking this breaks some stuff. Salesforce related
+go.pardot.com
+
+# apple podcasts
+chtbl.com
+
+# news website comments
+api-2-0.spot.im
+events-collector.spot.im
+
+# streaming services allows, check out https://www.commonsensemedia.org/sites/default/files/uploads/research/privacy_of_streaming_apps_and_devices-final.pdf, 'App traffic analysis'
+
+# hulu
+cws-hulu.conviva.com
+
+# disney
+# technically a tracker https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/issues/58
+dpm.demdex.net
+
+# hbomax
+hercules.iad.appboy.com
+api.us-east-1.aiv-delivery.net
