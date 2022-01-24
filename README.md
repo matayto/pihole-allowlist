@@ -1,6 +1,6 @@
 # pihole-allowlist
 
-Small set of allows that are in addition to allowlists at git@github.com:matayto/pihole-allowlist.git
+Small set of allows that are in addition to allowlists at https://github.com/anudeepND/whitelist
 
 Many streaming services rely on trackers to provide their services, and pihole can cause odd streaming issues when trying to play media, e.g., videos start but hang with spinner going forever, etc.
 
