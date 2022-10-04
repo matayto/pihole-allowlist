@@ -1,29 +1,102 @@
+# https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212/86
 # these are in addition to the curated allowlists at https://github.com/anudeepND/whitelist
-
+# for blocklists see https://firebog.net/
 # o365 and live allows
 browser.pipe.aria.microsoft.com
 nexus.officeapps.live.com
 mobile.pipe.aria.microsoft.com
-
 # blocking this breaks some stuff. Salesforce related
 go.pardot.com
-
 # apple podcasts
 chtbl.com
-
 # news website comments
 api-2-0.spot.im
 events-collector.spot.im
-
 # streaming services allows, check out https://www.commonsensemedia.org/sites/default/files/uploads/research/privacy_of_streaming_apps_and_devices-final.pdf, 'App traffic analysis'
-
 # hulu
 cws-hulu.conviva.com
-
 # disney
 # technically a tracker https://github.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/issues/58
 dpm.demdex.net
-
 # hbomax
 hercules.iad.appboy.com
 api.us-east-1.aiv-delivery.net
+clients4.google.com
+clients2.google.com
+s.youtube.com
+video-stats.l.google.com
+www.googleapis.com
+youtubei.googleapis.com
+oauthaccountmanager.googleapis.com
+android.clients.google.com
+reminders-pa.googleapis.com firestore.googleapis.com
+gstaticadssl.l.google.com
+googleapis.l.google.com
+dl.google.com
+redirector.gvt1.com
+www.msftncsi.com
+outlook.office365.com products.office.com c.s-microsoft.com i.s-microsoft.com login.live.com login.microsoftonline.com
+g.live.com
+dl.delivery.mp.microsoft.com geo-prod.do.dsp.mp.microsoft.com displaycatalog.mp.microsoft.com
+sls.update.microsoft.com.akadns.net fe3.delivery.dsp.mp.microsoft.com.nsatc.net tlu.dl.delivery.mp.microsoft.com
+msedge.api.cdp.microsoft.com
+clientconfig.passport.net
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+client-s.gateway.messenger.live.com
+activity.windows.comxbox.ipv6.microsoft.com device.auth.xboxlive.com www.msftncsi.com title.mgt.xboxlive.com xsts.auth.xboxlive.com title.auth.xboxlive.com ctldl.windowsupdate.com attestation.xboxlive.com xboxexperiencesprod.experimentation.xboxlive.com xflight.xboxlive.com cert.mgt.xboxlive.com xkms.xboxlive.com def-vef.xboxlive.com notify.xboxlive.com help.ui.xboxlive.com licensing.xboxlive.com eds.xboxlive.com www.xboxlive.com v10.vortex-win.data.microsoft.com settings-win.data.microsoft.com
+s.gateway.messenger.live.com client-s.gateway.messenger.live.com ui.skype.com pricelist.skype.com apps.skype.com m.hotmail.com sa.symcb.com
+officeclient.microsoft.com
+itunes.apple.com
+s.mzstatic.com
+appleid.apple.com
+gsp-ssl.ls.apple.com
+gsp-ssl.ls-apple.com.akadns.net
+dev.virtualearth.net ecn.dev.virtualearth.net t0.ssl.ak.dynamic.tiles.virtualearth.net t0.ssl.ak.tiles.virtualearth.net
+connectivitycheck.android.com android.clients.google.com clients3.google.com connectivitycheck.gstatic.com
+msftncsi.com www.msftncsi.com ipv6.msftncsi.com
+captive.apple.com gsp1.apple.com www.apple.com www.appleiphonecell.com
+api-tv.spotify.com
+dl.dropboxusercontent.com ns1.dropbox.com ns2.dropbox.com
+gfwsl.geforce.com
+tracking.epicgames.com
+cloudsync-prod.s3.amazonaws.com
+assets.adobedtm.com
+nexus.ensighten.com
+tracking-protection.cdn.mozilla.net
+styles.redditmedia.com
+www.redditstatic.com
+reddit.map.fastly.net
+www.redditmedia.com
+reddit-uploaded-media.s3-accelerate.amazonaws.com
+twitter.com
+api.twitter.com
+mobile.twitter.com
+disneyplus.com
+bamgrid.com
+bam.nr-data.net
+cdn.registerdisney.go.com
+cws.conviva.com
+d9.flashtalking.com
+disney-portal.my.onetrust.com
+disneyplus.bn5x.net
+js-agent.newrelic.com
+disney-plus.net
+dssott.com
+adobedtm.com
+android.googleapis.com
+dl.delivery.mp.microsoft.com
+geo-prod.do.dsp.mp.microsoft.com
+displaycatalog.mp.microsoft.com
+client.wns.windows.com
+storeedgefd.dsx.mp.microsoft.com
+tlu.dl.delivery.mp.microsoft.com
+msedge.api.cdp.microsoft.com
+s.shopify.com
+cdn.optimizely.com
+split.io
+t.ly
+www.bit.ly
+bit.ly
+ow.ly
+tinyurl.com
